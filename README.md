@@ -9,5 +9,7 @@ segue o [link](https://www.markdownguide.org/basic-syntax/)
 ### Colaboradores
 - Ettore Muniz
 - Renato Prado
-- Waldir
+- Waldir Bertazzi
 - marcela
+
+
