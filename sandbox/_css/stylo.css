@@ -1,0 +1,13 @@
+body{
+    font-size: 12pt;
+    Font-family: Arial, Verdana, sans-serif;
+}
+
+
+nav#menu{}
+
+nav#menu li {
+    list-style: none;
+    display: inline-flex;
+
+}
