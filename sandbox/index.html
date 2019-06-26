@@ -3,27 +3,32 @@
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="_css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3e867150af.js"></script>
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script type="text/javascript">
-
+        $(document).ready(function () {
+            $('.menu2').click(function () {
+                $('ul').toggleClass('active');
+            })
+        })
     </script>
     <title>Comida saudavel</title>
     <link rel="stylesheet" href="_css/stylo.css">
 </head>
 <body>
+
     <nav>
         <div class="toggle">
-
+            <i class="fas fa-bars menu2"></i>
         </div>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Receitas</a></li>
             <li><a href="#">Contato</a></li>
         </ul>
-
     </nav>
-
 </body>
 </html>
 
