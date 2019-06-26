@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width,inital-scale=1, user-scalable=no">
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="_css">
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script type="text/javascript">
         $(document).ready(function () {
-            $(`.toggle`).click(function () {
-                $(`ul`).toggle(`active`);
+            $('.toggle').click(function () {
+                $('ul').toggleClass('active');
             })
         })
+
     </script>
     <title>Comida saudavel</title>
     <link rel="stylesheet" href="_css/stylo.css">
 </head>
 <body>
-    <header>
-        <div class="cabecalho-menu">
-            <h1>LOGO</h1>
-        </div>
-        <nav id="menu-principal">
-            <a class="toggle">Menu</a>
-            <ul class="">
-                <li><a href="#"> Home</a></li>
-                <li><a href="#"> Cardapio</a></li>
-                <li><a href="#">Quem somos</a></li>
-                <li><a href="#">Contato</a></li>
+    <section>
+        <header id="cabecalho">
+            <img href="">Logo
+        </header>
+        <nav id="menu" role="navigation">
+            <a href="#" class="toggle">Menu</a>
+            <ul class="active">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Cardapio</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
             </ul>
         </nav>
-    </header>
+    </section>
 
-        <footer>
-            <p></p>
-        </footer>
+    </div>
+
 </body>
 </html>
+
+
